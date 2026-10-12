@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 html, body {
     width: 100%;
     height: 100%;
@@ -18,3 +19,20 @@ html, body {
     height: 100dvh;
     object-fit: cover;
 }
+=======
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+>>>>>>> 34042105f6b1138858f77c63c8b55e59cc37dd5f
