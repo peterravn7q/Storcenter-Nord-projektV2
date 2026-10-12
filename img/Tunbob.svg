@@ -1,0 +1,109 @@
+<svg width="866" height="552" viewBox="0 0 866 552" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes kf_Rectangle_2_2_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(153px) translateY(154px) translate(235px, 106px) scaleX(1) scaleY(1) translate(-235px, -106px);
+  }
+  12.5% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(153px) translateY(154px) translate(235px, 106px) scaleX(0.7) scaleY(1) translate(-235px, -106px);
+  }
+  25% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(153px) translateY(154px) translate(235px, 106px) scaleX(1) scaleY(1) translate(-235px, -106px);
+  }
+  37.5% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(153px) translateY(154px) translate(235px, 106px) scaleX(0.7) scaleY(1) translate(-235px, -106px);
+  }
+  50% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(153px) translateY(154px) translate(235px, 106px) scaleX(1) scaleY(1) translate(-235px, -106px);
+  }
+  62.5% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(153px) translateY(154px) translate(235px, 106px) scaleX(0.7) scaleY(1) translate(-235px, -106px);
+  }
+  75% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(153px) translateY(154px) translate(235px, 106px) scaleX(1) scaleY(1) translate(-235px, -106px);
+  }
+  87.5% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(153px) translateY(154px) translate(235px, 106px) scaleX(0.7) scaleY(1) translate(-235px, -106px);
+  }
+  100% {
+    transform: translateX(153px) translateY(154px) translate(235px, 106px) scaleX(1) scaleY(1) translate(-235px, -106px);
+  }
+}
+#Rectangle_2_2 {
+  transform-origin: 0 0;
+  animation: kf_Rectangle_2_2_transform_0 2s linear infinite;
+}
+</style>
+<g id="Frame_9" clip-path="url(#clip0_277_15290)">
+<rect width="866" height="552" id="Frame_9_bg_0" fill="white">
+</rect>
+<path id="Rectangle_8" transform="translate(394 137)" d="M5.86167 42.0291C27.3271 29.0971 127.497 62.5049 168.383 0C174.515 22.631 174.515 36.6408 173.493 62.5049C172.471 88.3689 1.77309 62.5049 1.77309 62.5049C1.77309 62.5049 -4.23289 57.1165 5.86167 42.0291Z" fill="url(#paint0_linear_277_15290)"/>
+<g id="Rectangle_2" filter="url(#filter0_n_277_15290)" transform="translate(385 184)">
+<path d="M0 15.0842C36.0346 5.54796 72.601 0 102.682 0C200.558 0 267.847 11.9231 328 82.9043C328 82.9043 289.207 183.458 102.682 178.846C59.0932 177.768 26.9058 173.744 2.42502 168.054L0 15.0842Z" fill="url(#paint1_linear_277_15290)"/>
+</g>
+<ellipse id="Ellipse_4994" transform="translate(647 241)" cx="14" cy="15" rx="14" ry="15" fill="black"/>
+<ellipse id="Ellipse_4995" transform="translate(649 243)" cx="12" cy="13" rx="12" ry="13" fill="#E7BB4D"/>
+<path id="Ellipse_4996" transform="translate(653 247)" d="M16 8.5C16 13.1944 12.4183 17 8 17C3.58172 17 0 13.1944 0 8.5C0 3.80558 3.58172 0 8 0C12.4183 0 16 3.80558 16 8.5Z" fill="black"/>
+<path id="Polygon_18" transform="matrix(0 1 -1 0 606 246)" d="M5.57102 0C0.944571 30.4917 58 22.361 58 22.361C18.3206 50.8205 14.0308 79.2794 4.37916 124C4.37916 124 -6.22572 46.7539 5.57102 0Z" fill="#D9D9D9"/>
+<g id="Rectangle_2_2" filter="url(#filter1_n_277_15290)" transform="translate(153 154)">
+<path d="M232.986 45.7937L235 197.078C163.571 179.808 159.701 148.09 124.968 136.052C124.968 136.052 56.988 114.586 58.9279 124.26C60.8677 133.934 23.2058 192.227 2.032 212C7.19003 190.494 8.12798 170.605 13.208 156.568C18.288 142.531 16.3041 129.906 18.288 112.822C18.288 82.0634 18.288 61.5475 13.208 45.3508C8.12798 29.1541 0 0 0 0C23.3584 20.3419 50.7999 91.2263 56.8959 100.142C62.9918 109.058 99.5678 100.142 124.968 90.7016C153.66 72.2565 192.911 56.566 232.986 45.7937Z" fill="url(#paint2_linear_277_15290)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_n_277_15290" x="0" y="0" width="328" height="179" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="2 2" stitchTiles="stitch" numOctaves="3" result="noise" seed="8013" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(0, 0, 0, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_277_15290">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<filter id="filter1_n_277_15290" x="0" y="0" width="235" height="212" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="2 2" stitchTiles="stitch" numOctaves="3" result="noise" seed="8013" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(0, 0, 0, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_277_15290">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<linearGradient id="paint0_linear_277_15290" x1="87" y1="0" x2="87" y2="74" gradientUnits="userSpaceOnUse">
+<stop stop-color="#65E45C"/>
+<stop offset="1" stop-color="#FED95F"/>
+</linearGradient>
+<linearGradient id="paint1_linear_277_15290" x1="46.0982" y1="-30.3502" x2="46.0982" y2="182.462" gradientUnits="userSpaceOnUse">
+<stop offset="0.536125" stop-color="#2C6EF1"/>
+<stop offset="1" stop-color="#1A3F8B"/>
+</linearGradient>
+<linearGradient id="paint2_linear_277_15290" x1="280.923" y1="0" x2="280.923" y2="212" gradientUnits="userSpaceOnUse">
+<stop offset="0.536125" stop-color="#2C6EF1"/>
+<stop offset="1" stop-color="#1A3F8B"/>
+</linearGradient>
+<clipPath id="clip0_277_15290">
+<rect width="866" height="552" fill="white"/>
+</clipPath>
+</defs>
+</svg>
