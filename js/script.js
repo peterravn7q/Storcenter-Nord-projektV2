@@ -90,5 +90,7 @@ const fish = [
         ability: "Kan svømme hurtigt og jage bytte og spise stort set alt",
         food: "fisk, skildpadder, sæler, fugle, krabber, blæksprutter, mennesker, bildæk, affald",
         levested: "havene i tropiske og subtropiske områder",
-    }
-]
+    },
+];
+console.log(fish);
+console.log(fish[0].spicies);
