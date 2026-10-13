@@ -50,35 +50,126 @@ html, body {
 }
 
 #Elmer {
-   bottom: 2.8vh;
+   top: 2.8vh;
    left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: car1 18s linear infinite;
+   animation: Elmer 18s linear infinite;
 }
 
-@keyframes car1 {
+@keyframes Elmer {
    0%   { transform: translateX(0) rotateY(180deg); }
    100% { transform: translateX(130vw) rotateY(180deg); }
 }
 
 #Gloria {
-   bottom: 2.8vh;
+   top: 7vh;
    right: -30vw; /* starter 30vw uden for skærmen til højre */
-   animation: car2 12s linear infinite;
+   animation: Gloria 25s linear infinite;
 }
 
-@keyframes car2 {
+@keyframes Gloria {
    0%   { transform: translateX(0) rotateY(180deg); }
    100% { transform: translateX(-130vw) rotateY(180deg); }
    
 }
 
 #Hilmer {
-   bottom: -3.4vh;
+   top: 17vh;
    left: -30vw; /* starter 30vw uden for skærmen til venstre */
-   animation: car3 8s linear infinite;
+   animation: Hilmer 8s linear infinite;
 }
 
-@keyframes car3 {
+@keyframes Hilmer {
    0%   { transform: translateX(0) rotateY(180deg); }
    100% { transform: translateX(130vw) rotateY(180deg); }
+}
+
+#John {
+   bottom: 5vh;
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   animation: John 18s linear infinite;
+}
+
+@keyframes John {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(130vw) rotateY(180deg); }
+}
+
+#Nemo {
+   top: 35vh;
+   right: -30vw; /* starter 30vw uden for skærmen til højre */
+   animation: Nemo 9s linear infinite;
+}
+
+@keyframes Nemo {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(-130vw); }
+   
+}
+
+#Lars-Hjortshaj {
+   top: 45vh;
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   animation: Lars-Hjortshaj 7s linear infinite;
+}
+
+@keyframes Lars-Hjortshaj {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(130vw) rotateY(180deg); }
+}
+
+#Allan {
+   bottom: 20vh;
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   animation: Allan 13s linear infinite;
+}
+
+@keyframes Allan {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(130vw) rotateY(180deg); }
+}
+
+#Knud {
+   bottom: -4vh;
+   right: -30vw; /* starter 30vw uden for skærmen til højre */
+   animation: Knud 12s linear infinite;
+}
+
+@keyframes Knud {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(-130vw) rotateY(180deg); }
+   
+}
+
+#Stella {
+   bottom: -14vh;
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   animation: Stella 8s linear infinite;
+}
+
+@keyframes Stella {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(130vw) rotateY(180deg); }
+}
+
+#Martin {
+   top: 20vh;
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   animation: Martin 3s linear infinite;
+}
+
+@keyframes Martin {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(130vw); }
+}
+
+#Rasmus {
+   top: 20vh;
+   right: -30vw; /* starter 30vw uden for skærmen til højre */
+   animation: Rasmus 12s linear infinite;
+}
+
+@keyframes Rasmus {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(-130vw) rotateY(180deg); }
+   
 }
