@@ -91,6 +91,15 @@ const fish = [
         food: "fisk, skildpadder, sæler, fugle, krabber, blæksprutter, mennesker, bildæk, affald",
         levested: "havene i tropiske og subtropiske områder",
     },
+    {
+        id: "Rasmus"
+        spicies: "Rævefjæs",
+        color: "gul, sort og blå",
+        size: "20 til 24 cm",
+        ability: "Kan have giftige finnestråler, der stikker, hvis den føler sig trådt over tæerne eller truet.",
+        food: "tang",
+        levested: "koralrev"
+    }
 ];
 console.log(fish);
 console.log(fish[0].spicies);
