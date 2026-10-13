@@ -19,3 +19,55 @@ html, body {
     object-fit: cover;
     z-index: -1;
 }
+
+#Elmer,
+#Gloria,
+#Hilmer,
+#John,
+#Nemo,
+#Lars-Hjortshaj,
+#Allan,
+#Knud,
+#Stella,
+#Martin,
+#Rasmus {
+   position: absolute;
+   width: var(--car-w);
+   max-width: 28vw;
+   z-index: 1;
+   cursor: pointer; /* viser en hånd, så man kan se, at bilerne kan klikkes */
+}
+
+#Elmer {
+   bottom: 2.8vh;
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   animation: car1 18s linear infinite;
+}
+
+@keyframes car1 {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(130vw) rotateY(180deg); }
+}
+
+#Gloria {
+   bottom: 2.8vh;
+   right: -30vw; /* starter 30vw uden for skærmen til højre */
+   animation: car2 12s linear infinite;
+}
+
+@keyframes car2 {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(-130vw) rotateY(180deg); }
+   
+}
+
+#Hilmer {
+   bottom: -3.4vh;
+   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   animation: car3 8s linear infinite;
+}
+
+@keyframes car3 {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(130vw) rotateY(180deg); }
+}
