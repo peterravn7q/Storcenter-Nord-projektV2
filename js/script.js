@@ -1,5 +1,42 @@
 "use strict";
 
+const overlay = document.getElementById("startOverlay");
+const INACTIVITY_TIME = 60 * 1000; // 60 sekunder
+
+let lastActivity = Date.now();
+let isStarted = false;
+
+function showStartBox() {
+    overlay.classList.remove("hidden");
+    isStarted = true;
+};
+
+function startSceen() {
+    overlay.classList.add("hidden");
+    isStarted = true;
+    lastActivity = Date.now();
+}
+
+overlay.addEventListener("click", startSceen);
+
+overlay.addEventListener("keydown", function (event) {
+    if (event.key === "Enter" || event.key === "") {
+        event.preventDefault();
+        startSceen();
+    }
+});
+function registerActivity() {
+    lastActivity = Date.now();
+};
+
+["pointerdown", "pointermove", "keydown", "wheel"].forEach(function(eventName) {
+    document.addEventListener(eventName, function() {
+        if (isStarted) {
+            registerActivity();
+        }
+    }, { passive: true });
+}, 500);
+
 const fish = [
     {
         id: "Elmer",
@@ -92,7 +129,7 @@ const fish = [
         levested: "havene i tropiske og subtropiske områder",
     },
     {
-        id: "Rasmus"
+        id: "Rasmus",
         spicies: "Rævefjæs",
         color: "gul, sort og blå",
         size: "20 til 24 cm",

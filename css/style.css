@@ -10,6 +10,48 @@ html, body {
     padding: 0;
 }
 
+#startOverlay {
+   position: fixed;
+   inset: 0;
+   background-color: rgba(0, 0, 0, 0.3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 9999;
+   opacity: 1;
+   transition: opacity 0.5s ease, visibility 0.5s ease;
+   cursor: pointer;
+   -webkit-tap-highlight-color: transparent; /* Fjern highlight på mobile enheder */
+}
+#startOverlay.hidden {
+   opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
+}
+.startbox {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   width: min(88vw, 600px);
+   min-height: 200px;
+   padding: 40px 50px;
+   color:darkslategrey;
+   background-color: rgba(255, 255, 255, 0.9);
+   border-radius: 15px;
+   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+   animation: softZoom 1s ease-in-out infinite;
+   user-select: none; /* Forhindrer markering af tekst */
+}
+.fa-solid {
+   font-size: 2rem;
+   color: darkslategrey;
+}
+@keyframes softZoom {
+   0%, 100% { transform: scale(1); }
+   50% { transform: scale(1.05); }
+}
+
 #video {
     position: fixed;
     top: 0;
@@ -20,16 +62,6 @@ html, body {
     z-index: -1;
 }
 
-.lightboxText {
-    display: none;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    inset: 0;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    
-}
 
 #Elmer,
 #Gloria,
