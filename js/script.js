@@ -94,3 +94,6 @@ const fish = [
 ];
 console.log(fish);
 console.log(fish[0].spicies);
+
+const image = document.getElementsByClassName("fish-image")
+
