@@ -141,5 +141,37 @@ const fish = [
 console.log(fish);
 console.log(fish[0].spicies);
 
-const image = document.getElementsByClassName("fish-image")
+const image = document.querySelectorAll(".fish-image")
+const popups = document.querySelectorAll(".popup")
 
+image.forEach(function(image) {
+    image.addEventListener("click", function(){
+        const popupId = image.dataset.popup;
+        const popup = document.getElementById(popupId);
+        if (popup) {
+            popup.style.display = "flex";
+        }
+    });
+});
+
+popups.forEach(function (popup){
+    popup.addEventListener("click", function () {
+        popup.style.display = "none";
+    });
+    popup.querySelector(".popup-box")
+        .addEventListener("click", function (event) {
+            event.stopPropagation();
+    });
+    popup.querySelector(".closebtn")
+        .addEventListener("click", function () {
+            popup.style.display = "none"
+        });
+});
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        popups.forEach(function (popup) {
+            popup.style.display = "none"
+        });
+    }
+});

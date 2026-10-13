@@ -79,6 +79,7 @@ html, body {
    max-width: 28vw;
    z-index: 1;
    cursor: pointer; /* viser en hånd, så man kan se, at bilerne kan klikkes */
+   transition: transform 0.2s;
 }
 
 #Elmer {
@@ -204,4 +205,43 @@ html, body {
    0%   { transform: translateX(0) rotateY(180deg); }
    100% { transform: translateX(-130vw) rotateY(180deg); }
    
+}
+
+.popup {
+   display: none;
+   position: fixed;
+   inset: 0;
+   z-index: 1000;
+   background: rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   box-sizing: border-box;
+   justify-content: center;
+   align-items: center;
+}
+.popup-box {
+   position: relative;
+   background: white;
+   color: #222;
+   padding: 35px;
+   border-radius: 15px;
+   width: 100%;
+   max-width: 600px;
+   max-height: 85vh;
+   overflow-y: auto;
+   box-sizing: border-box;
+   box-shadow: 0 10px 40px rgba(0, 0, 0.4);
+   animation: popupZoom 0.25s ease;
+}
+.closebtn {
+   position: absolute;
+   top: 8px;
+   right: 12px;
+   border: none;
+   font-size: 30px;
+   cursor: pointer;
+   color: #333;
+}
+@keyframes popopZoom {
+   from {opacity: 0; transform: scale(0,9);}
+   to {opacity: 1; transform: scale(1);}
 }
