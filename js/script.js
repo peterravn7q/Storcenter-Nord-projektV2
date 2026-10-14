@@ -147,6 +147,9 @@ var modal = document.getElementById("modalElmer");
 var btn = document.getElementById("Elmerbtn");
 var span = document.getElementsByClassName("closebtn")[0];
 
+var modal = document.getElementById("modalHilmer");
+var btn = document.getElementById("Hilmerbtn");
+
 btn.onclick = function() {
     modal.style.display = "block";
 }
