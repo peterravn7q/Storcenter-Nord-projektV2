@@ -142,24 +142,34 @@ console.log(fish);
 console.log(fish[0].spicies);
 
 
+// Find alle links, der åbner en modal
+var buttons = [
+    { btn: "Elmerbtn", modal: "modalElmer" },
+    { btn: "Hilmerbtn", modal: "modalHilmer" },
+    { btn: "Stellabtn", modal: "modalStella"}
+];
 
-var modal = document.getElementById("modalElmer");
-var btn = document.getElementById("Elmerbtn");
-var span = document.getElementsByClassName("closebtn")[0];
+// Åbn den tilhørende modal
+buttons.forEach(function(item) {
+    var btn = document.getElementById(item.btn);
+    var modal = document.getElementById(item.modal);
 
-var modal = document.getElementById("modalHilmer");
-var btn = document.getElementById("Hilmerbtn");
+    btn.onclick = function(event) {
+        event.preventDefault();
+        modal.style.display = "block";
+    };
+});
 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
+// Luk modal ved klik på krydset
+document.querySelectorAll(".closebtn").forEach(function(close) {
+    close.onclick = function() {
+        close.closest(".modal").style.display = "none";
+    };
+});
 
-span.onclick = function() {
-    modal.style.display ="none";
-}
-
+// Luk modal ved klik udenfor infoboksen
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target.classList.contains("modal")) {
+        event.target.style.display = "none";
     }
-}
+};
