@@ -146,7 +146,10 @@ console.log(fish[0].spicies);
 var buttons = [
     { btn: "Elmerbtn", modal: "modalElmer" },
     { btn: "Hilmerbtn", modal: "modalHilmer" },
-    { btn: "Stellabtn", modal: "modalStella"}
+    { btn: "Stellabtn", modal: "modalStella"},
+    { btn: "Gloriabtn", modal: "modalGloria"},
+    { btn: "Lars-Hjortshajbtn", modal: "modalLars-Hjortshaj"},
+    { btn: "Nemobtn", modal: "modalNemo" },
 ];
 
 // Åbn den tilhørende modal
