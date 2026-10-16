@@ -150,6 +150,7 @@ var buttons = [
     { btn: "Gloriabtn", modal: "modalGloria"},
     { btn: "Lars-Hjortshajbtn", modal: "modalLars-Hjortshaj"},
     { btn: "Nemobtn", modal: "modalNemo" },
+    { btn: "Johnbtn", modal: "modalJohn" },
 ];
 
 // Åbn den tilhørende modal
